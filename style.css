@@ -1,0 +1,17 @@
+.logo {
+    height: 4rem;
+    width: 7rem;
+    border-radius: 20px;
+    background-color: #FF0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.triangle {
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 25px solid white;
+}
