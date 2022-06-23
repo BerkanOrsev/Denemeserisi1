@@ -6,7 +6,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 
@@ -14,4 +13,45 @@
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
     border-left: 25px solid white;
+}
+
+.cük-container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding-top: 45%
+}
+
+.kafasi {
+width: 30px;
+height: 30px;
+background-color: #E2B8B4;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+margin-left: 25px;
+border: 1px solid black
+}
+
+.cük {
+width: 30px;
+height: 75px;
+background-color: #ffdbac;
+margin-left: 25px;
+border: 1px solid black
+}
+
+.tassak {
+width: 40px;
+height: 40px;
+border-radius: 17px;
+background-color: #ffdbac;
+border: 1px solid black
+}
+
+.tassak-container {
+display: flex;
+flex-direction: row;
+width: 100%;
+align-items: center;
+margin-top: -15px
 }
